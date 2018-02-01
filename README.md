@@ -1,4 +1,5 @@
-Steps to reproduce [https://github.com/rbarrois/django_xworkflows/issues/30](https://github.com/rbarrois/django_xworkflows/issues/30)
+Steps to reproduce [https://github.com/rbarrois/django_xworkflows/issues/30](https://github.com/rbarrois/django_xworkflows/issues/30)  
+
 Please note that the issue can only be highlighted when the "Workflow"-ed model is referenced through a ForeignKey.
 
 ```bash

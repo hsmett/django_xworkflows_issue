@@ -30,5 +30,6 @@ class Ticket(xwf_models.WorkflowEnabled, models.Model):
     status = xwf_models.StateField(TicketWorkflow)
 
 
+# Adding this Comment model with a ForeignKey to Ticket will highlight the issue
 class Comment(models.Model):
     ticket = models.ForeignKey(Ticket, on_delete=models.CASCADE)
